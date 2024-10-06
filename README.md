@@ -1,1 +1,1 @@
-# interface-graphique-en-C-via-Qt-framework
+# interface-graphique-en-C++-via-Qt-framework
