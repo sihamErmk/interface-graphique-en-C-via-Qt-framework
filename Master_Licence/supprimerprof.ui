@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>supprimerProf</class>
+ <widget class="QDialog" name="supprimerProf">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>324</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>80</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	font: 8pt &quot;Comic Sans MS&quot;;
+color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string>Entrer le code du Professeur</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>170</y>
+     <width>251</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+ width: 50px;
+  height: 50px;
+  border-radius: 7%; /* Sets all corners to 50% curvature, creating a circle */
+ background-color: #0D3565;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  border: none;
+  cursor: pointer;
+	font: 8pt &quot;Andalus&quot;;
+font-size:18px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Supprimer</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="profsub">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>120</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

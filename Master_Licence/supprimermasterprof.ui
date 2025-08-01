@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>supprimerMasterProf</class>
+ <widget class="QDialog" name="supprimerMasterProf">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>398</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="SUPMAS">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>170</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSupprimerMaster">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>240</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+ width: 50px;
+  height: 50px;
+  border-radius: 7%; /* Sets all corners to 50% curvature, creating a circle */
+ background-color: #0D3565;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  border: none;
+  cursor: pointer;
+	font: 8pt &quot;Andalus&quot;;
+font-size:18px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>SUPPRIMER</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>120</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	font: 8pt &quot;Comic Sans MS&quot;;
+color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string>ENTRE LE CODE DU PROF :</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

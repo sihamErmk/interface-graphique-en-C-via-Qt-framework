@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addLicenceStudent</class>
+ <widget class="QDialog" name="addLicenceStudent">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>415</width>
+    <height>383</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="line1">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>60</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="line2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>120</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="line3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>180</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="line4">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>240</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="attStudent">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>340</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+ width: 50px;
+  height: 50px;
+  border-radius: 7%; /* Sets all corners to 50% curvature, creating a circle */
+ background-color: #0D3565;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  border: none;
+  cursor: pointer;
+	font: 8pt &quot;Andalus&quot;;
+font-size:18px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>AJOUTER</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>30</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	font: 8pt &quot;Comic Sans MS&quot;;
+color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string>Entre le nom d'etudiant</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>80</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	font: 8pt &quot;Comic Sans MS&quot;;
+color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string>Entre le prenm d'etudiant</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>150</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	font: 8pt &quot;Comic Sans MS&quot;;
+color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string>Entre le code apogee</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>200</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	font: 8pt &quot;Comic Sans MS&quot;;
+color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string>Quelle filiere</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="line5">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>300</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>260</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	font: 8pt &quot;Comic Sans MS&quot;;
+color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string>Sexe:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

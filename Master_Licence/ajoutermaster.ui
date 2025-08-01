@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ajouterMaster</class>
+ <widget class="QDialog" name="ajouterMaster">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>406</width>
+    <height>409</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="input2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>150</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>50</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	font: 8pt &quot;Comic Sans MS&quot;;
+color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string>Entre le nom du prof</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>210</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input1">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>80</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>230</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	font: 8pt &quot;Comic Sans MS&quot;;
+color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string>Les Modules </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>180</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	font: 8pt &quot;Comic Sans MS&quot;;
+color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string>Entre le code prof</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>110</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	font: 8pt &quot;Comic Sans MS&quot;;
+color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string>Entre le prenom de prof</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input4">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>280</y>
+     <width>251</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="attmasterStudent">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>360</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+ width: 50px;
+  height: 50px;
+  border-radius: 7%; /* Sets all corners to 50% curvature, creating a circle */
+ background-color: #0D3565;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  border: none;
+  cursor: pointer;
+	font: 8pt &quot;Andalus&quot;;
+font-size:18px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>AJOUTER</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

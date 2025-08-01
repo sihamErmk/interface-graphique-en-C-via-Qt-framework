@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/fstt.jpg</file>
+        <file>assets/FST-Tanger-removebg-preview.png</file>
+        <file>assets/software.png</file>
+        <file>assets/idea.png</file>
+        <file>assets/degree.png</file>
+        <file>assets/user.png</file>
+        <file>assets/operation.png</file>
+        <file>assets/system-administrator.png</file>
+        <file>assets/user2.png</file>
+        <file>assets/padlock.png</file>
+        <file>assets/useradminlogo.png</file>
+        <file>assets/dashboard.png</file>
+        <file>assets/icons8-prof-64.png</file>
+        <file>assets/student.png</file>
+        <file>assets/icons8-connexion-48.png</file>
+        <file>assets/icons8-livres-emoji-48.png</file>
+        <file>assets/icons8-salle-de-classe-64.png</file>
+        <file>assets/icons8-etudiant-homme-64.png</file>
+        <file>assets/icons8-objet-avec-duree-48.png</file>
+        <file>assets/female-student.png</file>
+        <file>assets/male-student.png</file>
+        <file>assets/team.png</file>
+        <file>assets/volume-control.png</file>
+        <file>assets/emploi_du_temp_s1.png</file>
+        <file>assets/emploi_du_temp_s3.png</file>
+        <file>assets/emploi_du_temp_s5.png</file>
+        <file>assets/add.png</file>
+        <file>assets/plus.png</file>
+    </qresource>
+</RCC>
